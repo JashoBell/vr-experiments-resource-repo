@@ -1,20 +1,21 @@
 # VR Research Resource Repository
 
-This repository is intended to be a curated list of resources that are relevant to developing XR-based studies for experimental psychology or similar fields of research. Where possible, it is focused on free, open-source and recently updated resources. It is not intended to be a list of all VR-related resources. If you have any suggestions for additions, please feel free to open an issue or pull request (after checking CONTRIBUTIONS.md), or just reach out via another platform. If you are building an experiment and would like to either ask for assistance or share your experiences, triumphs and frustrations, feel free to open a discussion.
+This repository is intended to be a curated list of resources that are relevant to developing XR-based studies for experimental psychology or similar fields of research. Where possible, it is focused on free, open-source and recently updated resources. It is not intended to be a list of all VR-related resources. If you have any suggestions for additions, please feel free to open an issue or pull request (after checking CONTRIBUTING.md), or just reach out via another platform. If you are building an experiment and would like to either ask for assistance or share your experiences, triumphs and frustrations, feel free to open a discussion.
 
 **Planned Additions**:
-- More Unreal Engine content
+- Hardware platforms/Tracking systems
+- More content (esp. Unreal Engine)
 - A wiki
-- Tutorials/Informational content
-- References
-    - Guidelines/Best Practices (e.g. [Vasser & Aru, 2020](https://www.sciencedirect.com/science/article/pii/S2352250X20300683))
-    - Exemplars
+    - Tutorials/Informational content
+    - References
+        - Guidelines/Best Practices (e.g. [Vasser & Aru, 2020](https://www.sciencedirect.com/science/article/pii/S2352250X20300683))
+        - Exemplars
 
 # Table of Contents
-- [Platforms](#platforms)
+- [Platforms](#software-platforms)
 - [Experimental Design](#experimental-design)
 - [3D Environment Building](#3d-environment-building)
-    - [Utilities](#utilities)
+    - [Applications](#applications)
     - [Asset Collections](#asset-collections)
 - [Avatars](#avatars)
 - [Feature Development](#feature-development)
@@ -24,7 +25,7 @@ This repository is intended to be a curated list of resources that are relevant 
 
 
 
-## Platforms
+## Software Platforms
 These are the applications you might use to build your experiment. I've included as many resources for each platform as are known to me, but this is highly Unity-biased as that is where I have the most experience (and it seems to have the most attention from experimental psychology). Platform constraints will be noted via a preceding emoji.
 
 :green_circle: [Unity](https://unity.com/)  
@@ -66,13 +67,14 @@ This section is primarily focused on the creation of realistic 3D environments f
 ## Feature Development  
 
 ### General
+
 - :green_circle: :orange_square: [Mixed Reality Toolkit](https://github.com/microsoft/MixedRealityToolkit) - "MRTK is a Microsoft-driven project that provides a set of components and features, used to accelerate cross-platform MR app development in Unity or Unreal". 
 
 ### Inverse Kinematics (IK) Solvers
 These resources enable the implementation of self-avatars for participants.
 
-- :green_circle: [FinalIK](https://assetstore.unity.com/packages/tools/animation/final-ik-14290) - A paid asset (often on sale) for Unity that includes a variety of IK solvers. VRIK in particular is useful in this context, and implements up to full-body IK.
-- :green_circle: :orange_square: [Manus Polygon](https://www.manus-meta.com/software/polygon) - Free full-body motion capture software that can stream data into Unity or Unreal. Last I know of, unable to work with less than 5 trackers (e.g., if you only want IK for the upper body).
+- :green_circle: [FinalIK](https://assetstore.unity.com/packages/tools/animation/final-ik-14290) - A paid asset (often on sale) for Unity that includes a variety of IK solvers. VRIK in particular is useful in this context, and implements full-body IK.
+- :green_circle: :orange_square: [Manus Polygon](https://www.manus-meta.com/software/polygon) - Free full-body motion capture software that can stream data into Unity or Unreal. Does not facilitate partial IK (i.e., you need enough trackers attached for full-body tracking).
 - :green_circle: [VRArmIK](https://github.com/dabeschte/VRArmIK) - IK solver focused on recreating arm movements from the head and hand.  
 
 ### Data Collection
@@ -83,6 +85,6 @@ These resources augment the experimental design frameworks above with additional
 
 
 ### Movement Smoothing
-Useful if representing virtual objects with potentially noisy motion capture data (e.g., Infrared LED).
+These resources can be used to smooth positional data in real-time. Useful if representing virtual objects with potentially noisy motion capture data (e.g., Infrared LED) that don't otherwise implement smoothing.
 
 - :green_circle: [OneEuro Filter (Unity Implementation)](https://github.com/DarioMazzanti/OneEuroFilterUnity) - A port of the [OneEuro](https://gery.casiez.net/1euro/) filter to Unity.
