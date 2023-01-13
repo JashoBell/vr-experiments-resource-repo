@@ -3,8 +3,9 @@
 This repository is intended to be a curated list of resources that are relevant to developing XR-based studies for experimental psychology or similar fields of research. Where possible, it is focused on free, open-source and recently updated resources. It is not intended to be a list of all VR-related resources. If you have any suggestions for additions, please feel free to open an issue or pull request (after checking CONTRIBUTIONS.md), or just reach out via another platform. If you are building an experiment and would like to either ask for assistance or share your experiences, triumphs and frustrations, feel free to open a discussion.
 
 **Planned Additions**:
+- More Unreal Engine content
 - A wiki
-- Tutorials
+- Tutorials/Informational content
 - References
     - Guidelines/Best Practices (e.g. [Vasser & Aru, 2020](https://www.sciencedirect.com/science/article/pii/S2352250X20300683))
     - Exemplars
