@@ -58,6 +58,10 @@ This section is primarily focused on the creation of realistic 3D environments f
     - [1702+ Photogrammetry-based Animal/Plant Models](https://sketchfab.com/ffishAsia-and-floraZia) - Massive collection of models based on photogrammetry scans of animals and plants. CC-BY Non-commercial.
 - :white_large_square: [Textures.com](https://www.textures.com/) - A collection of high-quality 3D assets. A limited number of free downloads each day with an account, but assets are not redistributable.
 
+### Standardized Assets
+- :white_large_square: [OpenVirtualObjects (Tromp et al., 2020)](https://edmond.mpdl.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.ANGZTW) - 124 realistic 3D models of commonly-used and encountered household objects, rated "for recognizability, familiarity, details (i.e., visual complexity), contact, and usage (i.e., frequency of usage in daily life)" by adult participants ([Paper](https://www.frontiersin.org/articles/10.3389/frvir.2020.611091/full)).
+- :white_large_square: [Standardized Set of 3D Objects (Peeters, 2017)](https://archive.mpi.nl/mpi/islandora/object/mpi:1839_CA8BDA0E_B042_417F_8661_8810B57E6732?asOfDateTime=2018-03-02T11:00:00.000Z) - 147 objects belonging to "several different semantic categories, including food items, furniture, clothing, toys, and vehicles". Objects "have been normed for name agreement, image agreement, familiarity, visual complexity, and corresponding lexical characteristics of the modal object names" ([Paper](https://link.springer.com/article/10.3758/s13428-017-0925-3)).
+
 ## Avatars
 - :green_circle: :orange_square: [Microsoft Rocketbox](https://github.com/microsoft/Microsoft-Rocketbox) - A large and relatively diverse collection of characters and avatars released under the MIT license. 
     - Note: If you intend to use them as self-avatars in Unity, see this [pull request](https://github.com/microsoft/Microsoft-Rocketbox/pull/19) that fixes an issue with the avatar's construction on import.
