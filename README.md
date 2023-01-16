@@ -15,6 +15,7 @@ If you have any suggestions for additions, please feel free to open a discussion
         - Exemplars
 
 # Table of Contents
+- [Previous Work/Examples](https://github.com/JashoBell/vr-experiments-resource-repo/wiki/Open-Source-Research)
 - [Platforms](#software-platforms)
 - [Experimental Design](#experimental-design)
 - [3D Environment Building](#3d-environment-building)
@@ -34,7 +35,7 @@ These are the applications you might use to build your experiment. Platform cons
 [PsychVRToolbox](http://psychtoolbox.org/docs/PsychVRToolbox) - A collection of functions for building VR experiments with MATLAB/GNU Octave.  
 [PsychXR](psychxr.org) - A Python library for building VR experiments, could be considered a VR extension of [PsychoPy](https://www.psychopy.org/) (and uses PsychoPy for rendering).  
 :green_circle: [Unity](https://unity.com/) - A free cross-platform engine focused on game development but capable of VR experiments. *Note:* Requires a free Unity account to use.  
-:orange_square: [Unreal Engine](https://www.unrealengine.com/en-US) - A free and open-source cross-platform engine focused on game development, but also able to be used for VR experiments. *Note:* Requires a free Epic Games account to use.
+:orange_square: [Unreal Engine](https://www.unrealengine.com/en-US) - A free and open-source cross-platform engine focused on game development, but also able to be used for VR experiments. *Note:* Requires a free Epic Games account to use.  
 :large_blue_diamond: [Vizard](https://www.worldviz.com/vizard-virtual-reality-software) - A VR application development platform focused on professional use that leverages Python as its scripting language. *Note:* Closed source, license fee involved.    
 :white_large_square: Platform-agnostic/Multiplatform  
 
@@ -45,7 +46,7 @@ These are the applications you might use to build your experiment. Platform cons
 This section covers experimental "frameworks", or libraries that simplify the essential processes of conducting a behavioral experiment.
 
 - :green_circle: [BioMotionLab Toolkit (Bebko & Troje, 2020)](https://github.com/BioMotionLab/TUX) - An framework for building experiments in Unity, aimed at reducing the amount of code needed to bring your design into practice ([Article](https://psyarxiv.com/arvkf/)).    
-- :green_circle: [Mixed Reality - Remote Immersive Experiment Workflows (MR-RIEW; Bovo et al., 2022)](https://github.com/CrowdVRLab/MR-RIEW) - A toolkit for virtual and augmented reality that provides researchers with a dynamic way to design an immersive experiment workflow including instructions, environments, sessions, trials and questionnaires [Paper](https://ieeexplore.ieee.org/document/9757432).
+- :green_circle: [Mixed Reality - Remote Immersive Experiment Workflows (MR-RIEW; Bovo et al., 2022)](https://github.com/CrowdVRLab/MR-RIEW) - A toolkit for virtual and augmented reality that provides researchers with a dynamic way to design an immersive experiment workflow including instructions, environments, sessions, trials and questionnaires ([Paper](https://ieeexplore.ieee.org/document/9757432)).
 - :green_circle: [Unity Experiment Framework (UXF; Brookes et al., 2019)](https://github.com/immersivecognition/unity-experiment-framework) - A set of components which simplify human behaviour experiments developed in the Unity engine. Includes a tutorial ([Article](https://link.springer.com/article/10.3758/s13428-019-01242-0)).
 - :green_circle: [Ubiq-Exp](https://ubiq.online/publications/ubiq-exp/): A set of tools and examples that extends the [Ubiq](https://github.com/UCL-VR/ubiq/) system to support distributed and remote MR experiments (Note: Not publicly released as of 01/13/22; [Article](https://www.frontiersin.org/articles/10.3389/frvir.2022.912078/full)).
 - :green_circle: [Unified Suite for Experiments (USE; Watson et al., 2019)](http://accl.psy.vanderbilt.edu/resources/analysis-tools/unifiedsuiteforexperiments/) - "a software and hardware solution for the development, management, and analysis of dynamic, video-game-like behavioral neuroscience experiments", uses a custom Arduino-based Synchbox to synchronize multiple hardware peripherals ([Article](https://www.sciencedirect.com/science/article/abs/pii/S0165027019302316)).
@@ -101,3 +102,4 @@ These resources enable the implementation of self-avatars for participants.
 These resources can be used to smooth positional data in real-time. Useful if representing virtual objects with potentially noisy motion capture data (e.g., Infrared LED) that don't otherwise implement smoothing.
 
 - :green_circle: [OneEuro Filter (Unity Implementation)](https://github.com/DarioMazzanti/OneEuroFilterUnity) - A port of the [OneEuro](https://gery.casiez.net/1euro/) filter to Unity.
+
