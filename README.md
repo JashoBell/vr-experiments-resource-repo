@@ -8,7 +8,7 @@ If you have any suggestions for additions, please feel free to open a discussion
 
 - Hardware platforms/Tracking systems
 - More content (esp. Unreal Engine)
-- A wiki
+- A wiki (Started, see: [Wiki](https://github.com/JashoBell/vr-experiments-resource-repo/wiki))
     - Tutorials/Informational content
     - References
         - Guidelines/Best Practices (e.g. [Vasser & Aru, 2020](https://www.sciencedirect.com/science/article/pii/S2352250X20300683))
@@ -18,7 +18,7 @@ If you have any suggestions for additions, please feel free to open a discussion
 - [Previous Work/Examples](https://github.com/JashoBell/vr-experiments-resource-repo/wiki/Open-Source-Research)
 - [Platforms](#software-platforms)
 - [Experimental Design](#experimental-design)
-- [3D Environment Building](#3d-environment-building)
+- [3D Environment Development](#3d-environment-Development)
     - [Applications](#applications)
     - [Asset Collections](#asset-collections)
 - [Avatars](#avatars)
